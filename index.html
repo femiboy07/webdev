@@ -1,4 +1,3 @@
->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -14,17 +13,26 @@
 <body>
     <!-- navigation bar section -->
     <header>
-        <a href="index.html" class="header-brand">WEBdev </a>
+        <a href="index.html" id="one" class="header-brand">WEBdev </a>
         <nav>
-            <ul>
+
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+
+            </div>
+            <ul class="list">
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="aboutme.html">About Me</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <a href="#" class="header-cases">cases</a>
 
+        <a href="#" class="header-cases" id="deep">cases</a>
     </header>
+
+
 
     <!-- main section-->
 
@@ -32,7 +40,7 @@
 
         <div class="wrapper">
             <section class="index-banner">
-                <div class="vertical">
+                <div class="vertical" id="move">
                     <h2>I am a freelance<br> web developer</h2>
 
                     <h1>With Speciality in web design and search engine optimization</h1>
@@ -143,6 +151,7 @@
 
 
         </div>
+        <script src="/javascript/index.Js"></script>
 </body>
 
 </html
