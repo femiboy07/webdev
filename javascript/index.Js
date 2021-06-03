@@ -156,7 +156,7 @@ const links = document.querySelectorAll('.lists li')
 
 
 
-window.onload = hamburger.addEventListener("click", () => {
+window.on = hamburger.addEventListener("click", () => {
 
     list.classList.toggle('open');
 }, false);
